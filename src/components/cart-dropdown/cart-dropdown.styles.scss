@@ -12,11 +12,10 @@
   z-index: 5;
 
   .cart-items {
-    margin-top: auto;
     height: 240px;
     display: flex;
     flex-direction: column;
-    // overflow-y: auto;
+    overflow-y: auto;
   }
 
   button {
