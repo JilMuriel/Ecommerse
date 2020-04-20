@@ -30,16 +30,16 @@ const INITIAL_STATE = {
       imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
       size: "large",
       id: 5,
-      linkUrl: "shop/men",
+      linkUrl: "shop/mens",
     },
   ],
 };
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
-    switch (action.type) {
-        default:
-            return state;
-    }
-}
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
 
 export default directoryReducer;
